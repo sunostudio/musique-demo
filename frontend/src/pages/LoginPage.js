@@ -1,6 +1,6 @@
-import Login from "../components/Login"
+import LoginComponent from "../components/Login"
 const LoginPage = () => {
-  return <Login />
+  return <LoginComponent />
 }
 
 export default LoginPage
