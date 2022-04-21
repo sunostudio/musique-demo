@@ -20,6 +20,7 @@ const LoginComponent = () => {
     setFormValues({ ...formValues })
     const userLogins = { email, password }
     console.log(userLogins)
+    setFormValues({ email: "", password: "" })
   }
 
   const handleChange = (name) => (e) => {

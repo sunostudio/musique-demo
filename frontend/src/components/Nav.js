@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 const navLinks = [
   { name: "HomeTunes", link: "/" },
-  { name: "Support", link: "/support" },
+  { name: "Pricing", link: "/pricing" },
   { name: "Sign up", link: "/signup" },
   { name: "Log in", link: "/login" },
 ]

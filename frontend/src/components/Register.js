@@ -22,6 +22,15 @@ const Register = () => {
     setFormValues({ ...formValues })
     const user = { username, email, password }
     console.log(user)
+    setFormValues({
+      username: "",
+      email: "",
+      password: "",
+      error: "",
+      loading: false,
+      message: "",
+      showForm: true,
+    })
   }
 
   const handleChange = (name) => (e) => {
