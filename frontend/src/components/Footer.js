@@ -69,19 +69,19 @@ const Footer = () => {
                   </h3>
                   <Link
                     to="/about-us/company-profile"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Company
                   </Link>
                   <Link
                     to="about-us/community"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     community
                   </Link>
                   <Link
                     to="/about-us/careers"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Careers
                   </Link>
@@ -93,13 +93,13 @@ const Footer = () => {
                   </h3>
                   <Link
                     to="/blog/tech"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Tech
                   </Link>
                   <Link
                     to="/blog/music"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Music
                   </Link>
@@ -111,19 +111,19 @@ const Footer = () => {
                   </h3>
                   <Link
                     to="/products/basic"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Basic
                   </Link>
                   <Link
                     to="/products/premium"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Pro
                   </Link>
                   <Link
                     to="/products/family"
-                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                    className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold"
                   >
                     Family
                   </Link>
@@ -133,11 +133,11 @@ const Footer = () => {
                   <h3 className="text-gray-700 uppercase dark:text-white">
                     Contact
                   </h3>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold">
                     <span className="text-green-200 font-medium">Phone: </span>{" "}
                     +05 777 333 999
                   </span>
-                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+                  <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:text-green-500 hover:font-bold">
                     <span className="text-green-200 font-medium">Email :</span>{" "}
                     contactus@musique.com
                   </span>

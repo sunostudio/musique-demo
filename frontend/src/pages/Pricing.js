@@ -5,8 +5,8 @@ const Pricing = () => {
   return (
     <div className="bg-white min-h-screen  dark:bg-gray-800">
       <div className="container px-6 py-8 mx-auto">
-        <div className="xl:items-center xl:-mx-8 xl:flex">
-          <div className="flex flex-col items-center xl:items-start xl:mx-8">
+        <div className="xl:items-center  mt-28 xl:-mx-8 xl:flex">
+          <div className="flex flex-col bg-stone- items-center xl:items-start xl:mx-8">
             <h1 className="text-3xl font-medium text-gray-800 capitalize lg:text-4xl dark:text-white">
               Our Pricing Plan
             </h1>
@@ -39,7 +39,7 @@ const Pricing = () => {
           </div>
           <div className="flex-1 xl:mx-8">
             <div className="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
-              <div className="max-w-sm mx-auto border hover:bg-slate-900 rounded-lg md:mx-4 dark:border-gray-700">
+              <div className="max-w-sm mx-auto border hover:bg-slate-900 rounded-lg md:mx-4 dark:border-gray-600">
                 <div className="p-6 ">
                   <h1 className="text-xl font-medium text-gray-700 capitalize lg:text-3xl dark:text-white">
                     Essential
@@ -169,7 +169,7 @@ const Pricing = () => {
                   </div>
                 </div>
               </div>
-              <div className="max-w-sm mx-auto border hover:bg-slate-900 rounded-lg md:mx-4 dark:border-gray-700">
+              <div className="max-w-sm mx-auto border hover:bg-slate-900 rounded-lg md:mx-4 dark:border-gray-600">
                 <div className="p-6">
                   <h1 className="text-xl font-medium text-gray-700 capitalize lg:text-3xl dark:text-white">
                     Premium

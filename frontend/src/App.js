@@ -9,7 +9,6 @@ import NotFoundPage from "./pages/NotFoundPage"
 import Nav from "./components/Nav"
 import Library from "./pages/Library"
 import Pricing from "./pages/Pricing"
-import Priceless from "./pages/Priceless"
 
 const App = () => {
   return (
@@ -22,7 +21,7 @@ const App = () => {
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/library" element={<Library />} />
         <Route path="/pricing" element={<Pricing />} />
-        {/* <Route path="/pricing" element={<Priceless />} /> */}
+
         <Route path="/not-found" element={<NotFoundPage />} />
         <Route path="/footer" element={<Footer />} />
       </Routes>

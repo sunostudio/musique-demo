@@ -8,9 +8,11 @@ const HomePage = () => {
   useEffect(() => {
     if (user) navigate("/library")
   }, [])
-  return <div>
-    <Main />
-  </div>
+  return (
+    <div>
+      <Main />
+    </div>
+  )
 }
 
 export default HomePage
