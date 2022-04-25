@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import logo from "../logo/suno_png.png"
 
 const navLinks = [
   { name: "HomeTunes", link: "/" },
@@ -21,6 +22,15 @@ const Nav = () => {
     return {
       color: isActive ? " #6c4" : "#9ca",
     }
+  }
+
+  const logoStyle = {
+    background: "rgba(9, 32, 42, 0.79)",
+    borderRadius: "16",
+    boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+    backdropFilter: "blur(9.1)",
+    "-webkit-backdrop-filter": "blur(9.1px)",
+    border: "1px solid rgba(9, 32, 42, 0.43)",
   }
 
   const navBar = () => {
@@ -59,10 +69,13 @@ const Nav = () => {
   }
 
   return (
-    <div class="w-full h-28 bg-slate-900 px-5 text-orange-200 flex justify-between items-center">
+    <div class="w-full h-28 dark:bg-slate-900 px-5 text-orange-200 flex justify-between items-center">
       <div className="px-6 font-extrabold text-3xl hover:text-indigo-300">
-        <NavLink to="/" className="flex font-normal justify-between mr-20">
-          LOGO
+        <NavLink
+          to="/"
+          className="flex font-normal justify-between mr-20 w-28  "
+        >
+          <img className={logoStyle} src={logo} alt="logo" />
         </NavLink>
       </div>
 

@@ -103,7 +103,7 @@ const Register = () => {
                 Register
               </button>
             </form>
-            <div className="text-center pt-12 pb-12">
+            <div className="text-center pt-12 pb-12 dark:text-gray-400">
               <p>
                 Already have an account?{" "}
                 <Link

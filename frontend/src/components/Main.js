@@ -2,6 +2,9 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 const Main = () => {
+
+
+
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="container px-6 py-16 mx-auto text-center">
@@ -21,7 +24,7 @@ const Main = () => {
           <p className="mt-3 text-sm text-gray-400 ">No credit card required</p>
         </div>
         <div className="flex justify-center mt-10">
-          <div className="w-full h-64 bg-fuchsia-300 rounded-xl md:w-4/5" />
+          <div className="w-full h-64 bg-orange-500 rounded-xl md:w-4/5" />
         </div>
       </div>
     </section>
